@@ -13,7 +13,7 @@ navigator.mediaDevices.getUserMedia({ video: true, audio: true })
         console.error('mediaDevice.getUserMedia() error:', error);
 });
 
-const peer = new Peer('j2221311iopHwy1',{});
+const peer = new Peer('ENiTr2HBuVL47oPE',{});
 
 peer.on('open', () => {
     document.getElementById('my-id').textContent = peer.id;
